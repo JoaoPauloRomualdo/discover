@@ -1,0 +1,5 @@
+body 
+{
+    /* Propriedades do background: color image reapeat position /size */
+    background: url('./assests/bg-mobile.jpg') no-repeat top center / cover;
+}
