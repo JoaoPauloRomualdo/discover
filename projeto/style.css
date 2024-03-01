@@ -4,15 +4,25 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Inter Tight", sans-serif;
-    color: #fff;
+    color: var(--text-color);
 }
 
+:root
+{
+    --text-color:#fff
+    --bg-url: url(./assests/bg-mobile.jpg)
+}
 
+.light 
+{
+    --text-color:black;
+    --br-url: url(./assests/bg-mobile-light.jpg);
+}
 
 body 
 {
     /* Propriedades do background: color image reapeat position /size */
-    background: url('./assests/bg-mobile.jpg') no-repeat top center / cover;
+    background:var(--br-url) no-repeat top center / cover;
 }
 
 #container 
@@ -70,7 +80,7 @@ ul li a
 ul li a:hover
 {
     background: rgba(255, 255, 255,0.5);
-    border: 1.5px solid white
+    border: 1.5px solid var(--text-color)
 }
 
 #social-links
