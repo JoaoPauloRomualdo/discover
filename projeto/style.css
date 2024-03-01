@@ -1,3 +1,8 @@
+*
+{
+    font-family: "Inter Tight", sans-serif;
+    color: #fff;
+}
 body 
 {
     /* Propriedades do background: color image reapeat position /size */
@@ -19,3 +24,9 @@ body
 {
     width: 112px;
 }
+#profile p
+{
+    font-weight: 500;
+    line-height: 24px;    
+}
+/*Adicionando fontes e estilos aos textos */
